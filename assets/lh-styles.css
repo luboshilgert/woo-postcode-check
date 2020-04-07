@@ -1,0 +1,9 @@
+div.lh_check_result_ok{
+    color:green;
+}
+div.lh_check_result_err{
+    color:red;
+}
+div.lh_check_result{
+    font-size:20px;
+}
