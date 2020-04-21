@@ -33,6 +33,12 @@
                     <textarea cols="100" name="lh_postcode_options[ok_delivery]"><?= get_option('lh_postcode_options')['ok_delivery']; ?></textarea>
                 </td>
             </tr>
+            <tr valign="top">
+                <th scope="row"><?= __('Doručujeme za poplatek', 'lh_postcode_check') ?></th>
+                <td>
+                    <textarea cols="100" name="lh_postcode_options[ok_delivery_price]"><?= get_option('lh_postcode_options')['ok_delivery_price']; ?></textarea>
+                </td>
+            </tr>
         </table>
         <div >
 

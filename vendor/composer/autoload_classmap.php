@@ -14,4 +14,5 @@ return array(
     'Inc\\Base\\SettingsLink' => $baseDir . '/includes/base/SettingsLink.php',
     'Inc\\Init' => $baseDir . '/includes/Init.php',
     'Inc\\Pages\\Admin' => $baseDir . '/includes/pages/Admin.php',
+    'Inc\\Pages\\Client' => $baseDir . '/includes/pages/Client.php',
 );

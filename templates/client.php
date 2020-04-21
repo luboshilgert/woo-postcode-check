@@ -12,5 +12,6 @@
 <div id="lh_postcode_check_result_format" class="lh_check_result_err lh_check_result" style="display: none"><?= get_option('lh_postcode_options')['format']; ?></div>
 <div id="lh_postcode_check_result_other" class="lh_check_result" style="display: none"><?= get_option('lh_postcode_options')['checking_error']; ?></div>
 <div id="lh_postcode_check_result_ok" class="lh_check_result_ok lh_check_result" style="display: none"><?= get_option('lh_postcode_options')['ok_delivery']; ?></div>
+<div id="lh_postcode_check_result_ok_price" class="lh_check_result_ok lh_check_result" style="display: none"><?= get_option('lh_postcode_options')['ok_delivery_price']; ?></div>
 <div id="lh_postcode_check_result_err" class="lh_check_result" style="display: none"><?= get_option('lh_postcode_options')['no_delivery']; ?></div>
 

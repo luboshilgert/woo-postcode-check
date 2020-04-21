@@ -15,11 +15,10 @@ class Enqueue extends BaseController {
     }
 
     public function enqueue() {
-        wp_register_script( 'lh-script', $this->plugin_url.'assets/lh-scripts.js', array('jquery'));
-        wp_localize_script( 'lh-script', 'check_postcode_ajax', array( 'ajax_url' => admin_url('admin-ajax.php')) );
-        wp_enqueue_style('mystyles', $this->plugin_url.'assets/lh-styles.css');
-        wp_enqueue_script('lh-script');
-        //wp_enqueue_script('myscripts', $this->plugin_url.'assets/lh-scripts.js', array('jquery'));
+        wp_register_script( 'lh-postcode-script', $this->plugin_url.'assets/lh-postcode-scripts.js', array('jquery'));
+        wp_localize_script( 'lh-postcode-script', 'check_postcode_ajax', array( 'ajax_url' => admin_url('admin-ajax.php')) );
+        wp_enqueue_style('lh-postcode-styles', $this->plugin_url.'assets/lh-postcode-styles.css');
+        wp_enqueue_script('lh-postcode-script');
     }
 
 }

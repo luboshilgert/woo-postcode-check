@@ -29,6 +29,7 @@ class ComposerStaticInitc47d94f902b79d9d28a1fa2693dd977c
         'Inc\\Base\\SettingsLink' => __DIR__ . '/../..' . '/includes/base/SettingsLink.php',
         'Inc\\Init' => __DIR__ . '/../..' . '/includes/Init.php',
         'Inc\\Pages\\Admin' => __DIR__ . '/../..' . '/includes/pages/Admin.php',
+        'Inc\\Pages\\Client' => __DIR__ . '/../..' . '/includes/pages/Client.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
